@@ -1,1 +1,42 @@
+<!doctype html>
 
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cryptoad</title>
+    <meta name="description" content="">
+    <meta name="author" content="SitePoint">
+
+    <meta property="og:title" content="Cryptoad">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="image.png">
+
+    <link rel="shortcut icon" href="/resources/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/resources/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+
+</head>
+<body>
+    <div id="mainWrapper">
+        <header>
+            <img src="/resources/frogimage.png" style="width:75px;height:75px;" />
+            <label class="cryptolabel">Cryptoad</label>
+            <input type="text" id="searchbar" name="query" placeholder="" />
+            <button id="aboutbutton">About</button>
+            <button id="loginbutton" onclick="window.location.href='login.html'">Log in</button>
+            <button id="signupbutton" onclick="window.location.href='signup.html'">Sign up</button>
+            <hr />
+        </header>
+        <div class="menubuttons">
+            <button id="playButton" onclick="window.location.href='game.html'">Play</button>
+            <button id="shopButton" onclick="signup()">Shop</button>
+        </div>
+    </div>
+    <script src="js/three.js"></script>
+</body>
+</html>
